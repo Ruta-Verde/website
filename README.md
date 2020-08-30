@@ -6,22 +6,29 @@ Please create your own branch and submit a pull-request to add changes. \
 
 ## Project setup
 
-1. Install [git](https://git-scm.com/downloads), setup access and clone the dev branch.
+1. Install [yarn](https://classic.yarnpkg.com/en/docs/install) on your machine. This may require additional software (node.js, choco, etc).
+
+yarn is what we use as a package manager and for compiling/serving the website the environment on your local machine.
+
+2. Install [git](https://git-scm.com/downloads), setup access and clone the dev branch.
 
 ```
 git clone -b dev git@github.com:Ruta-Verde/website.git [folder]
 ```
 
-2. Install [yarn](https://classic.yarnpkg.com/en/docs/install) on your machine. This may require additional software (node.js, choco, etc).
+3. Create your own branch for development.
 
-yarn is what we use as a package manager and for compiling/serving the website the environment on your local machine.
+```
+git branch -b [my-branch]
+```
 
-
-3. Navigate to the project directory and install all the dependencies via yarn.
+4. Navigate to the project directory and install all the dependencies via yarn.
 
 ```
 yarn install
 ```
+
+5. Run the site locally with `yarn serve`.
 
 ### Compiles, serves and hot-reloads for development
 ```
