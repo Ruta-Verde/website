@@ -1,5 +1,5 @@
 # Ruta Verde Website Dev Branch
-Development frontend for Ruta Verde. The source here is being served at [dev.ruta-verde.org](https://dev.ruta-verde.org). 
+Development frontend for Ruta Verde built on [vue.js](https://vuejs.org). The source here is being served at [dev.ruta-verde.org](https://dev.ruta-verde.org). 
 
 Please create your own branch and submit a pull-request to add changes. \
 **Changes to this branch will be picked up and deployed automatically.**
@@ -10,26 +10,31 @@ Please create your own branch and submit a pull-request to add changes. \
 
 yarn is what we use as a package manager and for compiling/serving the website the environment on your local machine.
 
-2. Install [git](https://git-scm.com/downloads), setup access and clone the dev branch.
+2. Use yarn to install the [vuecli](https://cli.vuejs.org). 
+```
+yarn global add @vue/cli
+```
+
+3. Install [git](https://git-scm.com/downloads), setup access and clone the dev branch.
 
 ```
 git clone -b dev git@github.com:Ruta-Verde/website.git [folder]
 ```
 
-3. Navigate to the project directory and create your own branch for development.
+4. Navigate to the project directory and create your own branch for development.
 
 ```
 cd [folder]
 git branch -b [my-branch]
 ```
 
-4. Install all the project dependencies via yarn.
+5. Install all the project dependencies via yarn.
 
 ```
 yarn install
 ```
 
-5. Run the site locally with `yarn serve`.
+6. Run the site locally with `yarn serve`.
 
 ### Compiles, serves and hot-reloads for development
 ```
