@@ -16,13 +16,14 @@ yarn is what we use as a package manager and for compiling/serving the website t
 git clone -b dev git@github.com:Ruta-Verde/website.git [folder]
 ```
 
-3. Create your own branch for development.
+3. Navigate to the project directory and create your own branch for development.
 
 ```
+cd [folder]
 git branch -b [my-branch]
 ```
 
-4. Navigate to the project directory and install all the dependencies via yarn.
+4. Install all the project dependencies via yarn.
 
 ```
 yarn install
