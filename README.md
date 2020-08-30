@@ -1,6 +1,16 @@
-# rutaverde
+# Ruta Verde Website Dev Branch
 
 ## Project setup
+First, install git and clone the dev branch.
+
+```
+git clone -b dev git@github.com:Ruta-Verde/website.git [folder]
+```
+
+Next install yarn and vue.js on your machine.
+
+Finally, navigate to the project directory and install all the dependencies via yarn.
+
 ```
 yarn install
 ```
