@@ -1,6 +1,7 @@
 # Ruta Verde Website Dev Branch
 Development frontend for Ruta Verde. The source here is being served at [dev.ruta-verde.org](https://dev.ruta-verde.org). 
 
+Please create your own branch and submit a pull-request to add changes. \
 **Changes to this branch will be picked up and deployed automatically.**
 
 ## Project setup
