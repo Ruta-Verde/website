@@ -31,9 +31,11 @@ jobs:
 #           yarn test:unit
           
       - name: Jest Annotations & Coverage
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # You may pin to the exact commit or the version.
         # uses: mattallty/jest-github-action@43bbcd073fa43a927322f188220b6592acae003b
         uses: mattallty/jest-github-action@v1.0.3
         with:
           # The test command to run
-          test-command: yarn test:unit # optional, default is npm test
+          test-command: "yarn test:unit" # optional, default is npm test
