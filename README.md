@@ -1,14 +1,14 @@
 # Ruta Verde Website Dev Branch
-Development frontend for Ruta Verde built on [vue.js](https://vuejs.org). The source here is being served at [dev.ruta-verde.org](https://dev.ruta-verde.org). 
+Development frontend for Ruta Verde built in [react.js](https://vuejs.org). The source here is being served at [dev.ruta-verde.org](https://dev.ruta-verde.org). 
 
-Please create your own branch and submit a pull-request to add changes. \
+Please create your own branch and submit a pull-request to submit changes. \
 **Changes to this branch will be picked up and deployed automatically.**
 
 ## Project setup
 
-1. Install [yarn](https://classic.yarnpkg.com/en/docs/install) on your machine. This may require additional software (node.js, choco, etc).
+1. Install [npm](https://www.npmjs.com/get-npm) on your machine. This may require additional software (node.js, choco, etc).
 
-yarn is what we use as a package manager and for compiling/serving the website the environment on your local machine.
+npm is what we use as a package manager and for compiling/serving the website the environment on your local machine.
 
 2. Use yarn to install the [vuecli](https://cli.vuejs.org). 
 ```
