@@ -1,5 +1,5 @@
 # Ruta Verde Website Dev Branch
-Development frontend for Ruta Verde built in [react.js](https://vuejs.org). The source here is being served at [dev.ruta-verde.org](https://dev.ruta-verde.org). 
+Development frontend for Ruta Verde built in [react.js](https://reactjs.org). The source here is being served at [dev.ruta-verde.org](https://dev.ruta-verde.org). 
 
 Please create your own branch and submit a pull-request to submit changes. \
 **Changes to this branch will be picked up and deployed automatically.**
